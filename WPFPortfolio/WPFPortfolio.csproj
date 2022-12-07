@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\background-img.jpg" />
+    <None Remove="Images\colorimg.jpg" />
+    <None Remove="Images\fighting.jpg" />
+    <None Remove="Images\toolimg.jpg" />
+    <None Remove="Images\vrgame.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\background-img.jpg" />
+    <Resource Include="Images\colorimg.jpg" />
+    <Resource Include="Images\fighting.jpg" />
+    <Resource Include="Images\toolimg.jpg" />
+    <Resource Include="Images\vrgame.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="View\" />
+  </ItemGroup>
+
+</Project>
